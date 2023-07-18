@@ -1,0 +1,5 @@
+<resources>
+        <string name="app_name">chatapp</string>
+        <string name="default_web_client_id">16:C0:C5:E2:BB:5E:D9:2B:88:DB:8F:02:DD:A8:2D:A2:3D:66:E2:8B</string>
+        <string name="martina_wol">Martina Wolna</string>
+</resources>

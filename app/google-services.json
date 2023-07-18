@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "802254302838",
+    "project_id": "chattapp-fee3c",
+    "storage_bucket": "chattapp-fee3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802254302838:android:7461bf6f685404de963957",
+        "android_client_info": {
+          "package_name": "com.azimzada.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802254302838-9cvddvjeaqu4npt4hsv66954g1nfn5hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWukDrFWM7ql5TSuFQVzefiZHUnJ3pO_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802254302838-9cvddvjeaqu4npt4hsv66954g1nfn5hk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
