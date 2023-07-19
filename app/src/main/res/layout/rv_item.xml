@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
+    <ImageView
+        android:id="@+id/rvBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chartmos_bg__asvg" />
+
+    <TextView
+        android:id="@+id/chatroomsText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="29dp"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:text="Bożenka Malina"
+        app:layout_constraintEnd_toEndOf="@+id/rvBG"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/rvBG"
+        app:layout_constraintTop_toTopOf="@+id/rvBG" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/rvBG"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@+id/rvBG"
+        app:layout_constraintTop_toBottomOf="@+id/chatroomsText"
+        app:srcCompat="@drawable/union" />
 </androidx.constraintlayout.widget.ConstraintLayout>

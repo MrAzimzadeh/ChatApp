@@ -62,12 +62,13 @@
                     android:layout_marginTop="16dp"
                     android:background="@drawable/rectangle"
                     android:drawableRight="@drawable/iconserach"
-                    android:drawableBottom="12dp"
                     android:ems="10"
                     android:hint="search.."
                     android:inputType="text"
                     android:paddingStart="15dp"
                     android:textColorHint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView2"
+                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -79,6 +80,7 @@
                     android:layout_marginEnd="24dp"
                     app:layout_constraintBottom_toBottomOf="@+id/editTextText2"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/editTextText2"
                     app:layout_constraintTop_toTopOf="@+id/editTextText2"
                     app:srcCompat="@drawable/group" />
@@ -96,14 +98,25 @@
                     app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/chatrooms"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-                    app:layout_constraintTop_toBottomOf="@+id/textView3"
-                    tools:layout_editor_absoluteX="1dp" />
-
-
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="409dp"
+                    android:layout_height="343dp"
+                    android:layout_marginBottom="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/chatrooms" />
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
